@@ -71,7 +71,10 @@ body{
 } 
 
 .estate_bottom_img{
+    display: block;
     width: 100%;
+    margin-right:  auto;
+    margin-left:  auto;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -133,15 +136,9 @@ body{
 
 .estate_bottom_img{
     height: 9rem;
-    width: 10rem;
-    padding: 0.5rem 0.5rem 0.5rem 0rem;
-    margin:  0.2rem;
+    width: 75%;
+    margin-right:  auto;
+    margin-left:  auto;
 }
 
-#project_img{
-    height: 10rem;
-    width: 10rem;
-    padding: 0.3rem;
-    margin:  0.1rem;
-}
 }
